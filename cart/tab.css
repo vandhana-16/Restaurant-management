@@ -1,0 +1,157 @@
+@media (width>1200px) {
+    .price-details-container{
+        width: 400px;
+        max-width: 400px;
+    }
+    .buy-now,.go-back{
+        padding-block: 15px;
+    }
+}
+@media (width<950px) {
+    .order-container{
+        flex-direction: column;
+    }
+    .price-details-container{
+        max-width: 65vw;
+    }
+}
+@media (width<850px) {
+    .dishes-overview{
+        gap: 20px;
+    }
+    .dish-img>img{
+        width: 160px;
+        height: 140px;
+    }
+    .footer{
+        grid-template-columns: 1fr 1fr;
+        row-gap: 30px;
+    }
+}
+@media (width<700px) {
+    header{
+        padding: 10px 20px;
+    }
+    .left-container>img{
+        max-width: 160px;
+        min-width: 100px;
+    }
+    .right-container{
+        display: none;
+    }
+    .mobile-view-right-container{
+        display: block;
+    }
+    .order-container{
+        margin: 0 30px;
+    }
+    .price-details-container{
+        max-width: 100vw;
+    }
+    .dishes-overview{
+        padding: 15px 0;
+        border-bottom: none;
+    }
+    .ordered-successfull-container{
+        width: 100vw;
+    }
+    .payment-success-container{
+        width: 100vw;
+        height: 100vh;
+    }
+}
+@media (width<600px) {
+    header{
+        padding: 15px 10px;
+    }
+    .left-container>img{
+        min-width: 100px;
+        max-width: 160px;
+    }
+    .order-container{
+        margin: 0;
+        gap: 30px;
+    }
+    .food-name{
+        font-size: 20px;    
+    }
+    .updater-container,.update{
+        gap: 10px;
+    }
+    .minus,.plus{
+        width: 25px;
+        height: 25px;
+        font-size: 12px;
+    }
+    .quantity{
+        height: 25px;
+        width: 40px;
+        border-radius: 5px;
+    }
+    .foods-orders-container{
+        width: 400px;
+    }
+    .foods-orders-container>img{
+        height: 250px;   
+    }
+}
+@media (width<560px) {
+    .name-price-details{
+        gap: 8px;
+    }
+    .dish-img>img{
+        width: 150px;
+        height: 120px;
+    }
+    .food-details{
+        gap: 10px;
+    }
+    .price-container{
+        gap: 10px;
+    }
+    .foods-orders-container{
+        width: 400px;
+        gap: 15px;
+    }
+    .foods-orders-container>img{
+        height: 300px;
+    }
+}
+@media (width<450px) {
+    .dish-img>img{
+        width: 120px;
+        height: 120px;
+    }
+    .updater-container{
+        align-items: center;
+        gap: 10px;
+    }
+    .remove{
+        text-align: center;
+    }
+    .footer{
+        grid-template-columns: 1fr;
+    }
+    .foods-orders-container{
+        width: 100vw;
+        top: 100vh;
+        transform: translate(-50%,-100%);
+        padding-bottom: 65px;
+        gap: 20px;
+    }
+    .foods-orders-container>img{
+        height: 280px;
+    }
+}
+@media (width<380px) {
+    .remove{
+        padding:8px;
+    }
+    .foods-orders-container{
+        gap: 10px;
+        padding-bottom: 30px;
+    }
+    .foods-orders-container>img{
+        height: 200px;
+    }
+}

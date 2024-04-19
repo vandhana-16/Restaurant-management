@@ -1,0 +1,127 @@
+*{
+    -webkit-tap-highlight-color: transparent;
+}
+body{
+    margin: 0;
+    background: linear-gradient(90deg, rgb(111, 81, 209), rgb(194, 174, 253) 95.83%) ;
+    background: linear-gradient(90deg,#6d05b3 0%,#f8aaaa 46%,#700069 100%);
+    min-height: 100vh;
+    overflow: hidden;
+    font-family: 'poppins',sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.grid{
+    display: grid;
+    padding: 50px 80px;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    position: relative;
+    background-color: rgba(255,255,255,.219);
+    z-index: 0;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.image-container{
+    position: absolute;
+    right: -100px;
+    top: -70px;
+    transition: .5s all linear ;
+    cursor:pointer;
+    z-index: 1;
+}
+.img-shift{
+    transition: 1s;
+    right: 400px;
+}
+img{
+    height: 500px;
+    width: 500px;
+    border-radius: 40px;
+    object-fit: cover;
+    object-position: center;
+}
+.login,.signup-container{
+    display: flex;
+    opacity: 0.7;
+    flex-direction: column;
+    align-items: center;
+}
+.login-header,.signup-head{
+    font-size: 40px;
+    color: blue;
+}
+.input-container{
+    transition: .3s;
+}
+.signup-email-container,.signup-pass-container,.signin-email-container,.signin-pass-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.signup-email,.signup-password,.signin-email,.signin-password{
+    font-size: 0.8em;
+    transform: translateY(20px);
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    justify-content: space-between;
+    transition: .2s;
+}
+.upper-shift{
+    margin: 10px 0;
+    transform: translateY(10px);
+    color: darkgreen;
+}
+.input-container input{
+    border: none;
+    position: relative;
+    outline: none;
+    cursor: pointer;
+    padding: 5px 0;
+    border-bottom: 1px solid;
+    background: transparent;
+    width: 250px;
+}
+.login-btn-container,.signup-btn-container{
+    align-self: flex-end;
+}
+.login-btn,.signup-btn{
+    margin: 25px;
+    cursor: pointer;
+    background-color: blue;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    border: none;
+    color: white;
+    font-family: bold;
+    font-family: 'poppins';
+    transition: .3s;
+}
+button:hover{
+    background-color: rgb(64, 0, 255);
+}
+.login-create{
+    margin-right: 80px;
+}
+.signup-foot{
+    align-self: self-start;
+}
+.signup-foot.account-created,.login-foot.account-created{
+    font-size: 1.1em;
+    color: darkred;
+}
+.forgot-pass,.login-create,.signup-foot,.login-foot{
+    color:rgb(0, 44, 131);
+    display: flex;
+    font-weight: bold;
+    font-size: 0.8em;
+    cursor: pointer;
+    transition: .2s;
+}
+.login-foot div:hover,.signup-foot:hover{
+    filter: brightness(2);
+    transform:scale(1.03);
+}   
