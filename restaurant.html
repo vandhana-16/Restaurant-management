@@ -1,0 +1,1306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/header/title-bar.svg">
+    <title>Grilli - Amazing & Delicious Food</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Forum&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="restaurant.css">
+    <link rel="stylesheet" href="tab.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="left-container">
+            <img src="images/header/grilli-light-black.svg" alt="logo">
+        </a>
+        <div class="right-container">
+            <a href="#">
+                <div>Home</div>
+            </a>
+            <a href="#menu">
+                <div>Menu</div>
+            </a>
+            <a href="cart/cart.html">
+                <div>Order</div>
+            </a>
+            <a href="#booking-table">
+                <div>Reserve</div>
+            </a>
+            <a href="login/login.html" class="signin">
+                <div>SignIn</div>
+            </a>
+
+        </div>
+        <div class="mobile-view-right-container">
+            <div id="more-opt">
+                <span class="line line-1"></span>
+                <span class="line line-2"></span>
+                <span class="line line-3"></span>
+            </div>
+            <div class="more-options-container">
+                <div class="cross-mark">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                <a href="restaurant.html" class="more-options-header">
+                    <img src="images/header/grilli-light-white.svg" alt="">
+                </a>
+                <div class="more-options-details">
+                    <a href="#">Home</a>
+                    <a href="#menu">Menu</a>
+                    <a href="cart/cart.html">Order</a>
+                    <a href="#booking-table">Reserve</a>
+                    <a href="login/login.html" class="signin">SignIn</a>
+                </div>
+                <div class="visiting-details-container">
+                    <div class="visit-header">
+                        Visit Us
+                    </div>
+                    <div class="visit-details">
+                        <div class="visit-location">
+                            Restaurant St, Delicious City,
+                            Chennai 632312, TN
+                        </div>
+                        <div class="visiting-time">
+                            Open : 07:00 am - 11.00pm
+                        </div>
+                        <a href="mailto:rikesh.kanna2022@vitstudent.ac.in" class="visiting-email">
+                            booking@grill.com
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-details">
+                    <div class="booking-request">
+                        Booking Request
+                    </div>
+                    <a href="tel:+919080748147" class="contact-no">
+                        +91-9080-748-147
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="ordering-template">
+            <div>
+                For the Love of Delicious Food
+                <svg width="50%" height="50%" viewBox="0 0 78 6" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 5.25939C27 -0.240624 53.5 -0.2406 77 4.25939" stroke="#F15700" stroke-width="1.5"></path></svg>
+            </div>
+            <img src="images/header/template.avif" alt="template">
+        </section>
+        <section class="food-varieties-container" id="menu">
+            <div class="food-header">
+                <h1>What's on your mind?</h1>
+                <div class="arrow-container">
+                    <div class="left-arrow">
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </div>
+                    <div class="right-arrow">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="foods-overview food-container-scroll">
+                <a href="food-overview.html?name=South Indian" class="food-types">
+                    <img src="images/foodOverview/southindian.avif" alt="picture">
+                </a>
+                <a href="food-overview.html?name=North Indian" class="food-types">
+                    <img src="images/foodOverview/northindian.avif" alt="picture">
+                </a>
+                <a href="food-overview.html?name=Chinese" class="food-types">
+                    <img src="images/foodOverview/chinese.avif" alt="picture">
+                </a>
+                <a href="food-overview.html?name=Dosa" class="food-types">
+                    <img src="images/foodOverview/Dosa.avif" alt="picture">
+                </a>
+                <a href="food-overview.html?name=Biryani" class="food-types">
+                    <img src="images/foodOverview/Biryani_2.avif" alt="picture">
+                </a>
+                <a href="food-overview.html?name=Idly" class="food-types">
+                    <img src="images/foodOverview/Idli.avif" alt="picture">
+                </a>
+                <a href="food-overview.html?name=Parotta" class="food-types">
+                    <img src="images/foodOverview/Parotta.avif" alt="picture">
+                </a>
+                <a href="food-overview.html?name=Rolls" class="food-types">
+                    <img src="images/foodOverview/Rolls.avif" alt="roll">
+                </a>
+                <a href="food-overview.html?name=Burger" class="food-types">
+                    <img src="images/foodOverview/Burger.avif" alt="burger">
+                </a>
+                <a href="food-overview.html?name=Ice Cream" class="food-types">
+                    <img src="images/foodOverview/Ice_Creams.avif" alt="Ice creams">
+                </a>
+                <a href="food-overview.html?name=Cakes" class="food-types">
+                    <img src="images/foodOverview/Cakes.avif" alt="picture">
+                </a>
+                <a href="food-overview.html?name=Juices" class="food-types">
+                    <img src="images/foodOverview/Juice.avif" alt="picture">
+                </a>
+                <a href="food-overview.html?name=Shakes" class="food-types">
+                    <img src="images/foodOverview/shakes.avif" alt="picture">
+                </a>
+            </div>
+        </section>
+        <section class="southIndian-container">
+            <div class="food-header">
+                <h1>South Indian Foods</h1>
+                <div class="arrow-container">
+                    <div class="left-arrow">
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </div>
+                    <div class="right-arrow">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="southIndian-foods-overview food-container-scroll">
+                <div class="southIndian-foods food">
+                    <img src="images/southIndian/meals.avif" alt="picture">
+                    <div class="food-details">
+                        <div class="food-name">Veg Meals</div>
+                        <div class="food-price">
+                            <div class="ratings-container">
+                                <div class="rating-img">
+                                    <img src="images/symbol/rating-star.svg" alt="">
+                                </div>
+                                <div>
+                                    4.8
+                                </div>
+                            </div> 
+                            <div class="curr-price">
+                                <del>₹99</del>
+                                <div>₹70</div>
+                            </div>
+                        </div>
+                        <div class="description">
+                            All our meal items are cooked over woodfire - 1 sweet, 2 vegetable sides, rice, rasam, sambar, butter milk, papad, Pickle,1 banana leaf
+                        </div>
+                    </div>
+                </div>
+                <div class="southIndian-foods food">
+                    <img src="images/southIndian/thattupodiidli.avif" alt="picture">
+                    <div class="food-details">
+                        <div class="food-name">Thattu Podi Idly</div>
+                        <div class="food-price">
+                            <div class="ratings-container">
+                                <div class="rating-img">
+                                    <img src="images/symbol/rating-star.svg" alt="">
+                                </div>
+                                <div>
+                                    4.3
+                                </div>
+                            </div> 
+                            <div class="curr-price">
+                                <del>₹90</del>
+                                <div>₹59</div>
+                            </div>
+                            <div class="description">
+                                It's hard to find a Thattu Idli as large, flavorful and tangy as ours!
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+                <div class="southIndian-foods food">
+                    <img src="images/southIndian/fishfry.avif" alt="picture">
+                    <div class="food-details">
+                        <div class="food-name">Fish Fry</div>
+                        <div class="food-price">
+                            <div class="ratings-container">
+                                <div class="rating-img">
+                                    <img src="images/symbol/rating-star.svg" alt="">
+                                </div>
+                                <div>
+                                    4.4
+                                </div>
+                            </div> 
+                            <div>
+                                <div class="curr-price">
+                                    <del>₹180</del>
+                                    <div>₹120</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="description">
+                            fish deep fried using chettinad masala
+                        </div>
+                    </div>
+                </div>
+                <div class="southIndian-foods food">
+                    <img src="images/southIndian/eggkothuparota.avif" alt="picture">
+                    <div class="food-details">
+                        <div class="food-name">Egg kothu parotta</div>
+                        <div class="food-price">
+                            <div class="ratings-container">
+                                <div class="rating-img">
+                                    <img src="images/symbol/rating-star.svg" alt="">
+                                </div>
+                                <div>
+                                    4.1
+                                </div>
+                            </div> 
+                            <div class="curr-price">
+                                <del>₹99</del>
+                                <div>₹80</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="description">
+                        Egg Kothu Parotta: Shredded Parotta Stir-Fried With Eggs And Spices.
+                    </div>
+                </div>
+                <div class="southIndian-foods food">
+                    <img src="images/southIndian/pooriwithpotatomasala.avif" alt="picture">
+                    <div class="food-details">
+                        <div class="food-name">Poori With Potato Masala</div>
+                        <div class="food-price">
+                            <div class="ratings-container">
+                                <div class="rating-img">
+                                    <img src="images/symbol/rating-star.svg" alt="">
+                                </div>
+                                <div>
+                                    4.9
+                                </div>
+                            </div> 
+                            <div class="curr-price">
+                                <del>₹49</del>
+                                <div>₹39</div> 
+                            </div>
+                        </div>
+                        <div class="description">
+                            3 pieces of fried indian flatbread served with potato pieces cooked in a mix of succulent spices
+                        </div>
+                    </div>
+                </div>
+                <div class="southIndian-foods food">
+                    <img src="images/southIndian/kaldosa.avif" alt="picture">
+                    <div class="food-details">
+                        <div class="food-name">Kal Dosa</div>
+                        <div class="food-price">
+                            <div class="ratings-container">
+                                <div class="rating-img">
+                                    <img src="images/symbol/rating-star.svg" alt="">
+                                </div>
+                                <div>
+                                    4.2
+                                </div>
+                            </div> 
+                            <div class="curr-price">
+                                <del>₹49</del>
+                                <div>₹30 </div>
+                            </div>
+                        </div>
+                        <div class="description">
+                            Homestyle 2 nos veedu kal dosai
+                        </div>
+                    </div>
+                </div>
+                <div class="southIndian-foods food">
+                    <img src="images/southIndian/gheeroast.avif" alt="picture">
+                    <div class="food-details">
+                        <div class="food-name">Ghee Roast</div>
+                        <div class="food-price">
+                            <div class="ratings-container">
+                                <div class="rating-img">
+                                    <img src="images/symbol/rating-star.svg" alt="">
+                                </div>
+                                <div>
+                                    4.7
+                                </div>
+                            </div> 
+                            <div class="curr-price">
+                                <del>₹79</del>
+                                <div>₹60</div>
+                            </div>
+                        </div>
+                        <div class="description">
+                            Crispy and thin dosa cooked with a generous dousing of ghee served with 3 types of flavorful chutney and sambhar.
+                        </div>
+                    </div>
+                </div>
+                <div class="southIndian-foods food">
+                    <img src="images/southIndian/onionravadosa.avif" alt="picture">
+                    <div class="food-details">
+                        <div class="food-name">Rava Dosa</div>
+                        <div class="food-price">
+                            <div class="ratings-container">
+                                <div class="rating-img">
+                                    <img src="images/symbol/rating-star.svg" alt="">
+                                </div>
+                                <div>
+                                    4.0
+                                </div>
+                            </div> 
+                            <div class="curr-price">
+                                <del>₹69</del>
+                                <div>₹60</div> 
+                            </div>
+                        </div>
+                        <div class="description">
+                            Crispy rava dosa with the goodness of onions
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="grill-container">
+            <div class="food-header">
+                <h1>Grill And Shawarma</h1>
+                <div class="arrow-container">
+                    <div class="left-arrow">
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </div>
+                    <div class="right-arrow">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="grillshawarma-overview food-container-scroll">
+                <div class="grill food">
+                    <img src="images/grills/chic.avif" alt="picture">
+                    <div class="food-details">
+                        <div class="food-name">Grill Chicken Half</div>
+                        <div class="food-price">
+                            <div class="ratings-container">
+                                <div class="rating-img">
+                                    <img src="images/symbol/rating-star.svg" alt="">
+                                </div>
+                                <div>
+                                    4.9
+                                </div>
+                            </div> 
+                            <div class="curr-price">
+                                <del>₹290</del>
+                                <div>₹250</div>
+                            </div>
+                        </div>
+                        <div class="description">
+                            Chicken breast grilled and served with pepper gravy, roasted onions!
+                        </div>
+                    </div>
+                </div>
+                <div class="grill food">
+                    <img src="images/grills/bbq.avif" alt="picture">
+                    <div class="food-details">
+                        <div class="food-name">BBQ Chicken</div>
+                        <div class="food-price"> 
+                            <div class="ratings-container">
+                                <div class="rating-img">
+                                    <img src="images/symbol/rating-star.svg" alt="">
+                                </div>
+                                <div>
+                                    4.8
+                                </div>
+                            </div> 
+                            <div class="curr-price">
+                                <del>₹290</del>
+                                <div>₹269</div>
+                            </div>
+                        </div>
+                        <div class="description">
+                            The perfect grilled pepper BBQ chicken that has you going back for "just one more piece".
+                        </div>
+                    </div>
+                </div>
+                <div class="grill food">
+                    <img src="images/grills/shaw.avif" alt="picture">
+                    <div class="food-details">
+                        <div class="food-name">Mexican Shawarma Roll</div>
+                        <div class="food-price">
+                            <div class="ratings-container">
+                                <div class="rating-img">
+                                    <img src="images/symbol/rating-star.svg" alt="">
+                                </div>
+                                <div>
+                                    4.7
+                                </div>
+                            </div> 
+                            <div class="curr-price">
+                                <del>₹190</del>
+                                <div>₹160</div>
+                            </div>
+                        </div>
+                        <div class="description">
+                            fully chicken added with mexican flavor stuffed in a kuboos roll
+                        </div>
+                    </div>
+                </div>
+                <div class="grill food">
+                    <img src="images/grills/gri.avif" alt="picture">
+                    <div class="food-details">
+                        <div class="food-name">Grilled Chicken Full</div>
+                        <div class="food-price">
+                            <div class="ratings-container">
+                                <div class="rating-img">
+                                    <img src="images/symbol/rating-star.svg" alt="">
+                                </div>
+                                <div>
+                                    4.9
+                                </div>
+                            </div> 
+                            <div class="curr-price">
+                                <del>₹620</del>
+                                <div>₹450</div>
+                            </div>
+                        </div>
+                        <div class="description">
+                            Savor the succulent flavors of Arabian Specials with our tender, charred grilled chicken.
+                        </div>
+                    </div>
+                </div>
+                <div class="grill food">
+                    <img src="images/grills/tan.avif" alt="picture">
+                    <div class="food-details">
+                        <div class="food-name">Tandoori Chicken</div>
+                        <div class="food-price">
+                            <div class="ratings-container">
+                                <div class="rating-img">
+                                    <img src="images/symbol/rating-star.svg" alt="">
+                                </div>
+                                <div>
+                                    4.2
+                                </div>
+                            </div> 
+                            <div class="curr-price">
+                                <del>₹290</del>
+                                <div>₹260</div>
+                            </div>
+                        </div>
+                        <div class="description">
+                            Pieces of chicken marinated added with traditional spices and roasted in a tandoor, a cylindrical clay oven.
+                        </div>
+                    </div>
+                </div>
+                <div class="grill food">
+                    <img src="images/grills/plateshaw.avif" alt="picture">
+                    <div class="food-details">
+                        <div class="food-name">Special Chicken Shawarma Plate</div>
+                        <div class="food-price">
+                            <div class="ratings-container">
+                                <div class="rating-img">
+                                    <img src="images/symbol/rating-star.svg" alt="">
+                                </div>
+                                <div>
+                                    4.4
+                                </div>
+                            </div> 
+                            <div class="curr-price">
+                                <del>₹270</del>
+                                <div>₹239</div>
+                            </div>
+                        </div>
+                        <div class="description">
+                            Authentic shawarma from the gulfs of arabia served with mouth tingling arabian salad and 2 kuboos.
+                        </div>
+                    </div>
+                </div>
+                <div class="grill food">
+                    <img src="images/grills/mexishaw.avif" alt="picture">
+                    <div class="food-details">
+                        <div class="food-name">Mexican Shawarma Plate</div>
+                        <div class="food-price">
+                            <div class="ratings-container">
+                                <div class="rating-img">
+                                    <img src="images/symbol/rating-star.svg" alt="">
+                                </div>
+                                <div>
+                                    4.5
+                                </div>
+                            </div> 
+                            <div class="curr-price">
+                                <del>₹220</del>
+                                <div>₹180</div>
+                            </div>
+                        </div>
+                        <div class="description">
+                            Mexican flavored shawarma filled in a kuboos and covered by one
+                        </div>
+                    </div>
+                </div>
+                <div class="grill food">
+                    <img src="images/grills/bbshaw.avif" alt="picture">
+                    <div class="food-details">
+                        <div class="food-name">Barbeque Shawarma Roll</div>
+                        <div class="food-price">
+                            <div class="ratings-container">
+                                <div class="rating-img">
+                                    <img src="images/symbol/rating-star.svg" alt="">
+                                </div>
+                                <div>
+                                    4.7
+                                </div>
+                            </div> 
+                            <div class="curr-price">
+                                <del>₹170</del>
+                                <div>₹129</div>
+                            </div>
+                        </div>
+                        <div class="description">
+                            Smoky Sweet | Fresh Kuboos wrapped only with roasted chicken and blended with rich garlic mayonnaise & sweet flavoured smoky BBQ sauce (100% Halal and Breast Boneless Chicken)
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="dessert-container">
+            <div class="food-header">
+                <h1>Desserts</h1>
+                <div class="arrow-container">
+                    <div class="left-arrow">
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </div>
+                    <div class="right-arrow">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="dessert-overview food-container-scroll">
+                <div class="desserts food">
+                    <img src="images/desserts/belgian.avif" alt="picture">
+                    <div class="food-details">
+                        <div class="food-name">Belgian Sensation</div>
+                        <div class="food-price">
+                            <div class="ratings-container">
+                                <div class="rating-img">
+                                    <img src="images/symbol/rating-star.svg" alt="">
+                                </div>
+                                <div>
+                                    4.9
+                                </div>
+                            </div> 
+                            <div class="curr-price">
+                                <del>₹290</del>
+                                <div>₹209</div>
+                            </div> 
+                        </div>
+                        <div class="description">
+                            Yummy Nutty Belgian Dark Chocolate Ice Cream, Topped Off With Crunchy Almonds
+                        </div>
+                    </div>
+                </div>
+                <div class="desserts food">
+                    <img src="images/desserts/gulab.avif" alt="picture">
+                    <div class="food-details">
+                        <div class="food-name">Dry Jamun 250gms</div>
+                        <div class="food-price">
+                            <div class="ratings-container">
+                                <div class="rating-img">
+                                    <img src="images/symbol/rating-star.svg" alt="">
+                                </div>
+                                <div>
+                                    4.9
+                                </div>
+                            </div> 
+                            <div class="curr-price">
+                                <del>₹220</del>
+                                <div>₹199</div>
+                            </div> 
+                        </div>
+                        <div class="description">
+                            A popular Indian sweet made with milk solids and soaked in sugar syrup.
+                        </div>
+                    </div>
+                </div>
+                <div class="desserts food">
+                    <img src="images/desserts/smoothiebowl.avif" alt="picture">
+                    <div class="food-details">
+                        <div class="food-name">Berry Fusion Smoothie Bowl</div>
+                        <div class="food-price">
+                            <div class="ratings-container">
+                                <div class="rating-img">
+                                    <img src="images/symbol/rating-star.svg" alt="">
+                                </div>
+                                <div>
+                                    3.9
+                                </div>
+                            </div> 
+                            <div class="curr-price">
+                                <del>₹390</del>
+                                <div>₹349</div>
+                            </div> 
+                        </div>
+                        <div class="description">
+                            Crafted with imported californian cranberries, blueberries and strawberries. 
+                        </div>
+                    </div>
+                </div>
+                <div class="desserts food">
+                    <img src="images/desserts/muskjuice.avif" alt="picture">
+                    <div class="food-details">
+                        <div class="food-name">Muskmelon Juice (700 Ml)</div>
+                        <div class="food-price">
+                            <div class="ratings-container">
+                                <div class="rating-img">
+                                    <img src="images/symbol/rating-star.svg" alt="">
+                                </div>
+                                <div>
+                                    4.1
+                                </div>
+                            </div> 
+                            <div class="curr-price">
+                                <del>₹79</del>
+                                <div>₹59</div>
+                            </div> 
+                        </div>
+                        <div class="description">
+                            Refreshing and sweet, this luscious juice will tantalize your taste buds with its smooth and vibrant flavor.
+                        </div>
+                    </div>
+                </div>
+                <div class="desserts food">
+                    <img src="images/desserts/redvelevetcheesecake.avif" alt="picture">
+                    <div class="food-details">
+                        <div class="food-name">Red Velvelt Cheesecake(500gms)</div>
+                        <div class="food-price">
+                            <div class="ratings-container">
+                                <div class="rating-img">
+                                    <img src="images/symbol/rating-star.svg" alt="">
+                                </div>
+                                <div>
+                                    4.5
+                                </div>
+                            </div> 
+                            <div class="curr-price">
+                                <del>₹1099</del>
+                                <div>₹959</div>
+                            </div>
+                        </div>
+                        <div class="description">
+                            Love Is In The Air! Delicious Combination Of Cream Cheese Ice Cream & Cake
+                        </div>
+                    </div>
+                </div>
+                <div class="desserts food">
+                    <img src="images/desserts/blackforestpastry.avif" alt="picture">
+                    <div class="food-details">
+                        <div class="food-name">Black Forest Pastry</div>
+                        <div class="food-price">
+                            <div class="ratings-container">
+                                <div class="rating-img">
+                                    <img src="images/symbol/rating-star.svg" alt="">
+                                </div>
+                                <div>
+                                    4.4
+                                </div>
+                            </div> 
+                            <div class="curr-price">
+                                <del>₹129</del>
+                                <div>₹109</div>
+                            </div> 
+                        </div>
+                        <div class="description">
+                            A crowd favourite and for good reason. Multiple layers of moist chocolate topped with whipped cream and garnished with chocolate flakes.
+                        </div>
+                    </div>
+                </div>
+                <div class="desserts food">
+                    <img src="images/desserts/whiteforest.avif" alt="picture">
+                    <div class="food-details">
+                        <div class="food-name">White Forest</div>
+                        <div class="food-price">
+                            <div class="ratings-container">
+                                <div class="rating-img">
+                                    <img src="images/symbol/rating-star.svg" alt="">
+                                </div>
+                                <div>
+                                    4.0
+                                </div>
+                            </div> 
+                            <div class="curr-price">
+                                <del>₹599</del>
+                                <div>₹569</div>
+                            </div>
+                        </div>
+                        <div class="description">
+                            The delicious, melt-in-mouth & gorgeous white forest cake, spongy layered vanilla cake of whipped cream with white chocolate flakes. 
+                        </div>
+                    </div>
+                </div>
+                <div class="desserts food">
+                    <img src="images/desserts/chiamango.avif" alt="picture">
+                    <div class="food-details">
+                        <div class="food-name">Mango Chia Seed Pudding Bowl</div>
+                        <div class="food-price">
+                            <div class="ratings-container">
+                                <div class="rating-img">
+                                    <img src="images/symbol/rating-star.svg" alt="">
+                                </div>
+                                <div>
+                                    3.7
+                                </div>
+                            </div> 
+                            <div class="curr-price">
+                                <del>₹240</del>
+                                <div>₹219</div>
+                            </div> 
+                        </div>
+                        <div class="description">
+                            A rich, creamy and luscious dessert made with fresh Mangoes.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="chinesefood-container">
+            <div class="food-header">
+                <h1>Chinese</h1>
+                <div class="arrow-container">
+                    <div class="left-arrow">
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </div>
+                    <div class="right-arrow">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="chinese-overview food-container-scroll">
+                <div class="chinese-food food">
+                    <img src="images/chinese/lolipop.avif" alt="picture">
+                    <div class="food-details">
+                        <div class="food-name">Chicken Lollypop [chinese Type]</div>
+                        <div class="food-price">
+                            <div class="ratings-container">
+                                <div class="rating-img">
+                                    <img src="images/symbol/rating-star.svg" alt="">
+                                </div>
+                                <div>
+                                    4.3
+                                </div>
+                            </div> 
+                                <div class="curr-price">
+                                    <del>₹189</del>
+                                    <div>₹159</div>
+                                </div>
+                        </div>
+                        <div class="description">
+                            Frenched chicken winglets, the meat cut loose from the bone end and pushed down creating a lollipop appearance, served hot with Szechwan sauce
+                        </div>
+                    </div>
+                </div>
+                <div class="chinese-food food">
+                    <img src="images/chinese/friedbowl.avif" alt="picture">
+                    <div class="food-details">
+                        <div class="food-name">Veg Manchurian Fried Rice</div>
+                        <div class="food-price">
+                            <div class="ratings-container">
+                                <div class="rating-img">
+                                    <img src="images/symbol/rating-star.svg" alt="">
+                                </div>
+                                <div>
+                                    4.1
+                                </div>
+                            </div> 
+                            <div class="curr-price">
+                                <del>₹180</del>
+                                <div>₹105</div>
+                            </div>
+                        </div>
+                        <div class="description">
+                            Chinese stir-fried dish with boiled noodles, sautéed vegetables and soy sauce paired with spicy Bajra Manchurian and kimchi.
+                        </div>
+                    </div>
+                </div>
+                <div class="chinese-food food">
+                    <img src="images/chinese/bhel.avif" alt="picture">
+                    <div class="food-details">
+                        <div class="food-name">Chinese Bhel Tangy Tangra Style</div>
+                        <div class="food-price">
+                            <div class="ratings-container">
+                                <div class="rating-img">
+                                    <img src="images/symbol/rating-star.svg" alt="">
+                                </div>
+                                <div>
+                                    3.9
+                                </div>
+                            </div> 
+                            <div class="curr-price">
+                                <del>₹260</del>
+                                <div>₹200</div>
+                            </div>
+                        </div>
+                        <div class="description">
+                            Fried noodles mixed with chinese sauce along with onion
+                        </div>
+                    </div>
+                </div>
+                <div class="chinese-food food">
+                    <img src="images/chinese/pep.avif" alt="picture">
+                    <div class="food-details">
+                        <div class="food-name">Pepper Chicken Gravy- Chinese</div>
+                        <div class="food-price">
+                            <div class="ratings-container">
+                                <div class="rating-img">
+                                    <img src="images/symbol/rating-star.svg" alt="">
+                                </div>
+                                <div>
+                                    4.4
+                                </div>
+                            </div> 
+                                <div class="curr-price">
+                                    <del>₹250</del>
+                                    <div>₹140</div>
+                                </div>
+                        </div>
+                        <div class="description">
+                            Strips of chicken breasts sauteed with hot peppers in savoury pan sauce.
+                        </div>
+                    </div>
+                </div>
+                <div class="chinese-food food">
+                    <img src="images/chinese/wings.avif" alt="picture">
+                    <div class="food-details">
+                        <div class="food-name">Spicy Wings</div>
+                        <div class="food-price">
+                            <div class="ratings-container">
+                                <div class="rating-img">
+                                    <img src="images/symbol/rating-star.svg" alt="">
+                                </div>
+                                <div>
+                                    4.5
+                                </div>
+                            </div> 
+                            <div class="curr-price">
+                                <del>₹250</del>
+                                <div>₹200</div>
+                            </div>
+                        </div>
+                        <div class="description">
+                            Deep fried chicken wings tossed in a garlicky spicy sauce
+                        </div>
+                    </div>
+                </div>
+                <div class="chinese-food food">
+                    <img src="images/chinese/noodles.avif" alt="picture">
+                    <div class="food-details">
+                        <div class="food-name">Chinese Noodles Combo</div>
+                        <div class="food-price">
+                            <div class="ratings-container">
+                                <div class="rating-img">
+                                    <img src="images/symbol/rating-star.svg" alt="">
+                                </div>
+                                <div>
+                                    4.7
+                                </div>
+                            </div> 
+                            <div class="curr-price">
+                                <del>₹190</del>
+                                <div>₹130</div>
+                            </div>
+                        </div>
+                        <div class="description">
+                            Classic wok tossed chinese noodle with chicken, egg,onion with a touch of dark soya
+                        </div>
+                    </div>
+                </div>
+                <div class="chinese-food food">
+                    <img src="images/chinese/schnod.avif" alt="picture">
+                    <div class="food-details">
+                        <div class="food-name">Schezwan Chicken Noodles [Chinese]</div>
+                        <div class="food-price">
+                            <div class="ratings-container">
+                                <div class="rating-img">
+                                    <img src="images/symbol/rating-star.svg" alt="">
+                                </div>
+                                <div>
+                                    4.8
+                                </div>
+                            </div> 
+                                <div class="curr-price">
+                                    <del>₹190</del>
+                                    <div>₹160</div>
+                                </div>
+                        </div>
+                        <div class="description">
+                            A tantalizing Chinese creation with tender chicken and a delightful blend of flavors, offering a delightful culinary experience.
+                        </div>
+                    </div>
+                </div>
+                <div class="chinese-food food">
+                    <img src="images/chinese/crab.avif" alt="picture">
+                    <div class="food-details">
+                        <div class="food-name">Crab Soup</div>
+                        <div class="food-price">
+                            <div class="ratings-container">
+                                <div class="rating-img">
+                                    <img src="images/symbol/rating-star.svg" alt="">
+                                </div>
+                                <div>
+                                    4.3
+                                </div>
+                            </div> 
+                            <div class="curr-price">
+                                <del>₹250</del>
+                                <div>₹220</div>
+                            </div>
+                        </div>
+                        <div class="description">
+                            Our Famous Chettinad Crab Soup
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="restaurant-details">
+        <div class="booking-and-features">
+            <div class="booking-table-container">
+                <div class="online-reservation-container" id="booking-table">
+                    <div class="reservation-header-container">
+                        <div class="reservation-header">
+                            Online Reservation
+                        </div>
+                        <div class="reservation-call">
+                            Booking request <a href="tel:+918925076444">
+                                +91 (400)123 4567
+                            </a> or fill out the order form
+                        </div>
+                    </div>
+                    <form class="booking-input-container" >
+                        <div class="name-details">
+                            <div class="name">
+                                <input type="text" placeholder="Your Name" required id="name" pattern="[a-zA-Z0-9 ]{3,}">
+                            </div>
+                            <div class="phone-no">
+                                <input type="tel" placeholder="Phone Number" required id="phone" pattern="[6-9]{1}[0-9]{9}">
+                            </div>
+                        </div>
+                        <div class="person-details">
+                            <div class="number-of-persons">
+                                <i class="fa-solid fa-user"></i>
+                                    <select name="person" id="persons">
+                                    <option value="1">
+                                        1 Person
+                                    </option>
+                                    <option value="2">
+                                        2 Person
+                                    </option>
+                                    <option value="3">
+                                        3 Person
+                                    </option>
+                                    <option value="4">
+                                        4 Person
+                                    </option>
+                                    <option value="5">
+                                        5 Person
+                                    </option>
+                                    <option value="6">
+                                        6 Person
+                                    </option>
+                                    <option value="7">
+                                        7 Person
+                                    </option>
+                                    </select>
+                            </div>
+                            <div class="date">
+                                <input type="date" required id="date">
+                            </div>
+                            <div class="time-container">
+                                <i class="fa-solid fa-clock"></i>
+                                <select name="date" id="time">
+                                    <option value="7">
+                                        07:00 am
+                                    </option>
+                                    <option value="8">
+                                        08:00 am
+                                    </option>
+                                    <option value="9">
+                                        09:00 am
+                                    </option>
+                                    <option value="10">
+                                        10:00 am
+                                    </option>
+                                    <option value="11">
+                                        11:00 am
+                                    </option>
+                                    <option value="12">
+                                        12:00 pm
+                                    </option>
+                                    <option value="13">
+                                        01:00 pm
+                                    </option>
+                                    <option value="14">
+                                        02:00 pm
+                                    </option>
+                                    <option value="15">
+                                        03:00 pm
+                                    </option>
+                                    <option value="16">
+                                        04:00 pm
+                                    </option>
+                                    <option value="17">
+                                        05:00 pm
+                                    </option>
+                                    <option value="18">
+                                        06:00 pm
+                                    </option>
+                                    <option value="19">
+                                        07:00 pm
+                                    </option>
+                                    <option value="20">
+                                        08:00 pm
+                                    </option>
+                                    <option value="21">
+                                        09:00 pm
+                                    </option>
+                                    <option value="22">
+                                        10:00 pm
+                                    </option>
+                                    <option value="23">
+                                        11:00 pm
+                                    </option>
+                                </select>
+                            </div>
+                        </div>
+                        <textarea placeholder="Message"></textarea>
+                        <button class="book-table" type="submit">
+                            BOOK A TABLE
+                        </button>
+                    </form>
+                </div>
+                <div class="avalaible-details">
+                    <div class="available-header">
+                        Contact Us
+                    </div>
+                    <div class="booking-request">
+                        <div>
+                            Booking Request
+                        </div>
+                        <a href="tel:+918925076444">
+                            +91 (400) 123 4567
+                        </a>
+                    </div>
+                    <div class="location-details-container">
+                        <div class="location-details">
+                            <div class="location-header">
+                                Location
+                            </div>
+                            <div class="location">
+                                Restaurant St, Delicious City, <br>Vellore 632006, TN
+                            </div>
+                        </div>
+                        <div class="break-fast-details">
+                            <div class="break-fast-header">
+                                Break fast
+                            </div>
+                            <div class="break-fast-timing">
+                                Monday to Sunday <br>07.00 am - 11.00 am
+                            </div>
+                        </div>
+                        <div class="lunch-time-details">
+                            <div class="lunch-time-header">
+                                Lunch Time
+                            </div>
+                            <div class="lunch-timing">
+                                Monday to Sunday<br>
+                                11.00 am - 03.30 pm
+                            </div>
+                        </div>
+                        <div class="dinner-details">
+                            <div class="dinner-head">
+                                Dinner Time
+                            </div>
+                            <div class="dinner-timing">
+                                Monday to Sunday<br>
+                                06:00 pm - 11:00 pm
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="restaurent-features">
+                <div class="features-head1">
+                    WHY CHOOSE US
+                </div>
+                <div class="features-head2">
+                    Our Strength
+                </div>
+                <div class="features-overview">
+                    <div class="features">
+                        <img src="images/features/features-icon-1.png" alt="picture">
+                        <div class="features-name">
+                            Hygienic Food
+                        </div>
+                        <div class="quotes">
+                            Clean eats makes happy hearts!
+                        </div>
+                    </div>
+                    <div class="features">
+                        <img src="images/features/features-icon-2.png" alt="picture">
+                        <div class="features-name">
+                            Fresh Environment
+                        </div>
+                        <div class="quotes">
+                            Clean surroundings makes clear minds.
+                        </div>
+                    </div>
+                    <div class="features">
+                        <img src="images/features/features-icon-3.png" alt="picture">
+                        <div class="features-name">
+                            Skilled Chefs
+                        </div>
+                        <div class="quotes">
+                            Masters of the kitchen, maestros of taste.
+                        </div>
+                    </div>
+                    <div class="features">
+                        <img src="images/features/features-icon-4.png" alt="picture">
+                        <div class="features-name">
+                            Event & Party
+                        </div>
+                        <div class="quotes">
+                            Celebrating life's moments at a time.
+                        </div>
+                    </div>
+                </div>
+                <div class="feature-quotes">
+                    Come with family & feel the joy of mouthwatering food
+                </div>
+            </div>
+        </div>
+        <div class="special-dish-container">
+            <div class="special-dish-img">
+                <img src="images/background/special-dish-banner.jpg" alt="special-dish">
+            </div>
+            <div class="special-dish-details">
+                <div class="special-dish-head">
+                    SPECIAL DISH
+                </div>
+                <div class="special-dish-name">
+                    Lobster Tortellini
+                </div>
+                <div class="special-dish">
+                    Indulge in the luxurious pleasure of lobster tortellini, where each bite is a journey to the depths of flavor and refinement
+                </div>
+                <div class="special-dish-price">
+                    <del>₹450 </del><span>₹299</span>
+                </div>
+                <div class="special-dish-buy">
+                    <button class="btn">PLACE ORDER</button>
+                </div>
+            </div>
+        </div>
+        <div class="chef-container" id="aboutUs">
+            <div class="chef-details-container">
+                <div class="chef-head">
+                    OUR STORY
+                </div>
+                <div class="chef-quotes">
+                    Every Flavor Tells a Story
+                </div>
+                <div class="chef-details">
+                    Indulge in a culinary journey at Grilli, where every dish is a masterpiece crafted with passion. From sizzling grills to delicate desserts, our menu promises an unforgettable dining experience. Join us and savor the joy of food that speaks to the soul.
+                </div>
+                <div class="booking">
+                    BOOK THROUGH CALL
+                </div>
+                <a href="tel:+918925076444" class="phone btn">
+                    +91 (400) 123 4567
+                </a>
+            </div>
+            <div class="chef-img">
+                <img src="images/chef.jpg" alt="chef">
+            </div>
+        </div>
+        <div class="customer-review-container">
+            <div class="customer-review">
+                I wanted to thank you for inviting me down for that amazing dinner the other night. The food was extraordinary.
+            </div>
+            <div class="customer-img-container">
+                <img src="images/vaaa.jpg" alt="">
+                <div>The Reviewer</div>
+            </div>
+        </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="company-container" >
+                <h3>Company</h3>
+                <a href="#aboutUs">
+                    About
+                </a>
+                <a href="#">Careers</a>
+                <a href="#">Team</a>
+            </div>
+            <div class="contact-container">
+                <h3>Contact us</h3>
+                <a href="#">Help & Support</a>
+                <a href="#">Partner with us</a>
+                <a href="#">Ride with us</a>
+            </div>
+            <div class="legal-container">
+                <h3>Legal</h3>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">
+                    Cookie Policy
+                </a>
+                <a href="#">
+                    Privacy Policy
+                </a>
+            </div>
+            <div class="mail">
+                <h3>Mail us</h3>
+                <a href="mailto:ghayathri.pk2022a@vitstudent.ac.in">Ghayathri P K</a>
+                <a href="mailto:vandhana.2022@vitstudent.ac.in">Vandhana</a>
+            </div>
+            <div class="DM us">
+                <h3>DM us</h3>
+                <a href="https://www.instagram.com/pk_ghayathri_?igsh=MWh6cG5yYXlqajc5aw==">Ghayathri P K</a>
+                <a href="https://www.instagram.com/vandhanaaa_16?igsh=MTRhaG5wd2NraTB5eQ==">Vandhana s</a>
+            </div>
+            <div class="social-media">
+                <h3>Social Media</h3>
+                <a href="#">FaceBook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+        <div class="copyrights">
+            © 2024 Grilli. All Rights Reserved | Crafted by <a href="#">
+                VG
+            </a>
+        </div>
+    </footer>
+    <div class="foods-orders-container">
+        <img src="images/chinese/noodles.avif" alt="picture failded to Load">
+        <div class="close-order">
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+        <div class="ordering-food">
+            <div class="bestseller">
+                <i class="fa-sharp fa-solid fa-star"></i>Bestseller
+            </div>
+            <div class="ordering">
+                Order
+            </div>
+        </div>
+        <div class="foodName">
+        </div>
+        <div class="price">
+        </div>
+        <div class="food-description">
+        </div>
+    </div>
+    <div class="overlay">
+    </div>
+    <div class="ordered-successfull-container">
+        <div class="total-orders">1 Item Added</div>
+        <a href="cart/cart.html" class="cart-page">View Cart<img src="images/symbol/cart.avif" alt=""></a>
+    </div>
+    <div class="thanking">
+        <div>
+            <img src="images/symbol/icon-thank-you.svg">
+        </div>
+        <h1>Thank you!</h1>
+        <div>
+            Thanks for confirming your table! We hope you will have fun on our restaurant. If you ever need support, please feel free to email us at 
+        </div>
+        <a href="mailto:ghaythri.pk2022a@vitstudent.ac.in">booking@grilli.com</a>
+        <button class="go-back btn">Go Back</button>
+    </div>
+<script src="restaurant.js" type="module"></script>
+</body>
+</html>

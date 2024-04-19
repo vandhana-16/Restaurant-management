@@ -1,0 +1,293 @@
+@media (width>1200px){
+    body{
+        padding-top: 80px;
+    }
+    header{
+        padding-inline: 50px;
+    }
+    .ordering-template>img{
+        max-width: 30%;
+    }
+    .left-container>img{
+        max-width: 180px;
+        padding: 5px 0;
+    }
+    .right-container{
+        gap: 30px;
+        font-size: 18px;
+    }
+    .foods-overview>a{
+        min-width: 170px;
+        gap: 0;
+    }
+    .southIndian-foods-overview>div>img,.dessert-overview>div>img,.chinese-food>img,.grill>img{
+        width: 300px;
+        height: 200px;
+    }
+    .food-name{
+        width: 300px;
+    }
+    .booking-input-container>textarea{
+        height: 150px;
+        font-size: 1.2em;
+    }
+    .booking-input-container input{
+        padding: 20px 10px;
+        font-size: 1.2em;
+    }
+    .booking-input-container button,.booking-input-container select{
+        font-size: 1.2em;
+        padding-block: 20px;
+    }
+    .avalaible-details{
+        gap: 40px;
+    }
+    .customer-review{
+        font-size: 60px;
+        line-height: 70px;
+    }
+    .foods-orders-container{
+        width: 600px;
+    }
+    .foods-orders-container>img{
+        height: 420px;
+    }
+}
+
+@media (width<850px) {
+    .foods-orders-container{
+        width: 450px;
+    }
+    .foods-orders-container>img{
+        height: 300px;
+    }
+    .booking-table-container{
+        flex-direction: column;
+    }
+    .features-overview{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (width<678px) {
+    header{
+        padding: 10px 20px;
+    }
+    .left-container>img{
+        max-width: 160px;
+        min-width: 100px;
+    }
+    .right-container{
+        display: none;
+    }
+    .mobile-view-right-container{
+        display: block;
+    }
+    .arrow-container{
+        display: none;
+    }
+    .foods-orders-container{
+        width: 400px;
+    }
+    .foods-orders-container>img{
+        height: 250px;   
+    }
+    .food-header{
+        font-size: 14px;
+    }
+    .food-varieties-container .arrow-container{
+        display: flex;
+    }
+    .foods-overview>div{
+        min-width: 100px;
+        min-height: 100px;
+    }
+    .southIndian-foods-overview>div:hover,.dessert-overview>div:hover,.chinese-overview>div:hover,.grillshawarma-overview>div:hover{
+        transform: scale(.98);
+    }
+    .ordering-template{
+        font-size: 30px;
+        line-height: 1.3em;
+    }
+    .southIndian-foods-overview,.dessert-overview,.chinese-overview,.grillshawarma-overview{
+        flex-direction: column;
+        gap: 25px;
+    }  
+    .southIndian-foods-overview>div,.dessert-overview>div,.chinese-overview>div,.grillshawarma-overview>div{
+        overflow: hidden;
+        width: 100%;
+        flex-direction: row;
+        gap: 20px;
+        align-items: start;
+        padding: 0;
+        justify-content:start;
+    }
+    .southIndian-foods-overview>div>img,.dessert-overview>div>img,.chinese-food>img,.grill>img{
+        width: 100px;
+        height: 120px;
+        object-position: center;
+        object-fit: cover;
+        flex: .5;
+    }
+    .food-details{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        flex: 1.2;
+        overflow-x: hidden;
+        text-overflow: ellipsis;
+    }
+    .food-name{
+        margin: 0;
+        width: 100%;
+        white-space:nowrap;
+        font-size: .95em;
+    }
+    .food-price{
+        flex-direction: column;
+        align-items: start;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-size: .95em;
+    }
+    .chef-container{
+        gap: 0;
+    }
+    .special-dish-container,.chef-container{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .special-dish-img>img{
+        height: 50vh;
+    }
+    .name-details,.person-details{
+        flex-direction: column;
+    }
+    .footer{
+        grid-template-columns: 1fr 1fr;
+        row-gap: 30px;
+    }
+    .ordered-successfull-container{
+        width: 100vw;
+    }
+    .thanking{
+        min-width: 100vw;
+        min-height: 100vh;
+        padding-inline: 40px;
+        border-radius: 0;
+    }
+}
+
+@media (width<540px) {
+    body{
+        padding-top: 80px;
+    }
+    header{
+        padding: 15px 10px;
+    }
+    .left-container>img{
+        min-width: 100px;
+        max-width: 160px;
+    }
+    main{
+        margin-top: 20px;
+    }
+    .foods-overview{
+        gap: 0;
+    }
+    .foods-orders-container{
+        width: 350px;
+        gap: 15px;
+    }
+    .foods-orders-container>img{
+        height: 250px;
+    }
+    .food-varieties-container,.southIndian-container,.dessert-container,.chinesefood-container,.grill-container{
+        padding:15px;
+    }
+    .southIndian-foods-overview>div>img,.dessert-overview>div>img,.chinese-food>img,.grill>img{
+        height: 100px;
+    }
+    .chef-quotes{
+        font-size: 35px;
+    }
+    .chef-container{
+        padding: 20px;
+    }
+    .chef-details-container{
+        padding-inline: 0;
+    }
+    .features-overview{
+        grid-template-columns:1fr;
+    }
+    .booking-table-container{
+        padding: 0;
+    }
+    .customer-review{
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .customer-review-container{
+        padding: 50px 20px;
+    }
+}
+
+@media (width<450px){
+    section{
+        margin-inline:0px ;
+    } 
+    .left-container>img{
+        min-width:100px;
+        max-width: 150px;
+    }
+    .foods-orders-container{
+        width: 100vw;
+        top: 100vh;
+        transform: translate(-50%,-100%);
+        padding-bottom: 65px;
+        gap: 20px;
+    }
+    .foods-orders-container>img{
+        height: 280px;
+    }
+    .ordering-template{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .ordering-template>img{
+        flex: 5;
+    }
+    .food-varieties-container,.southIndian-container,.dessert-container,.chinesefood-container,.grill-container{
+        padding:10px 15px;
+    }
+    .southIndian-foods-overview>div>img,.dessert-overview>div>img,.chinese-food>img,.grill>img{
+        object-position: center;
+        flex: .5;
+        min-width: 130px;
+        height: 130px;
+    }
+    .restaurent-features{
+        padding:30px;
+    }
+    .customer-review{
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .footer{
+        grid-template-columns: 1fr;
+    }
+} 
+
+@media (width<350px) {
+    .southIndian-foods-overview>div>img,.dessert-overview>div>img,.chinese-food>img,.grill>img{
+        min-width: 85px;
+        height: 85px;
+    }
+    .foods-orders-container{
+        gap: 10px;
+        padding-bottom: 30px;
+    }
+    .foods-orders-container>img{
+        height: 200px;
+    }
+} 

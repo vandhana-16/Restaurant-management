@@ -1,0 +1,186 @@
+@media (width>1200px) {
+    body{
+        padding-top: 120px;
+    }
+    header{
+        padding-inline: 50px;
+    }
+    .ordering-template>img{
+        max-width: 30%;
+    }
+    .left-container>img{
+        max-width: 180px;
+        padding: 5px 0;
+    }
+    .right-container{
+        gap: 30px;
+        font-size: 18px;
+    }
+    .food-order>img{
+        width: 240px;
+        height: 200px;
+    }   
+    .description{
+        -webkit-line-clamp:6;
+    }
+    .foods-orders-container{
+        width: 600px;
+    }
+    .foods-orders-container>img{
+        height: 420px;
+    }
+}
+
+@media (width<1050px) {
+    .foods-overview-container{
+        grid-template-columns: 1fr;
+    }
+}
+@media (width<850px) {
+    .foods-overview:nth-child(even){
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
+    .footer{
+        grid-template-columns: 1fr 1fr;
+        row-gap: 30px;
+    }
+}
+@media (width<676px) {
+    header{
+        padding: 10px 20px;
+    }
+    .left-container>img{
+        max-width: 160px;
+        min-width: 100px;
+    }
+    .right-container{
+        display: none;
+    }
+    main{
+        margin: 0;
+    }
+    .food-header>div{
+        font-size: 18px;
+    }
+    .foods-overview{
+        padding: 15px;
+    }
+    .food-name{
+        font-size: 22px;
+    }
+    .price-ratings{
+        flex-direction: column;
+        align-items:start ;
+    }
+    .mobile-view-right-container{
+        display: block;
+    }
+    .foods-orders-container{
+        width: 400px;
+    }
+    .foods-orders-container>img{
+        height: 250px;   
+    }
+    .description{
+        -webkit-line-clamp: 2;
+    }
+    .ordered-successfull-container{
+        width: 100vw;
+    }
+}
+
+@media (width<560px) {
+    header{
+        padding: 15px 10px;
+    }
+    .left-container>img{
+        min-width: 100px;
+        max-width: 160px;
+    }
+    main{
+        margin-inline:0;
+    }
+    .foods-overview-container{
+        background-color: white;
+        padding: 0;
+        padding-bottom: 40px;
+        gap: 0px;
+    }
+    .foods-overview:nth-child(even){
+        flex-direction: row;
+        justify-content: start;
+    }
+    .foods-overview{
+        border-radius: 0px;
+        padding: 20px;
+        gap: 15px;
+        box-shadow: none;
+    }
+    .food-name{
+        font-size: 20px;
+    }
+    .food-order>img{
+        width: 140px;
+        height: 130px;
+    }
+    .description{
+        display: none;
+    }
+    .foods-orders-container{
+        width: 400px;
+        gap: 15px;
+    }
+    .foods-orders-container>img{
+        height: 300px;
+    }
+}
+
+@media (width<450px) {
+    .left-container>img{
+        min-width:100px;
+        max-width: 150px;
+    }
+    .food-order>img{
+        width: 130px;
+        height: 130px;
+    }
+    .foods-overview{
+        gap: 20px;
+        padding: 20px 5px 10px 10px;
+    }
+    .food-details{
+        gap: 10px;
+        padding-right: 15px;
+    }
+    .price-ratings{
+        gap: 10px;
+    }
+    .foods-orders-container{
+        width: 100vw;
+        top: 100vh;
+        transform: translate(-50%,-100%);
+        padding-bottom: 65px;
+        gap: 20px;
+    }
+    .foods-orders-container>img{
+        height: 280px;
+    }
+    .footer{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (width<350px) {
+    .food-order>img{
+        width: 95px;
+        height: 95px;
+    }
+    .foods-orders-container{
+        gap: 10px;
+        padding-bottom: 30px;
+    }
+    .foods-orders-container>img{
+        height: 200px;
+    }
+}
